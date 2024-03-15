@@ -1,6 +1,7 @@
 # get current repository latest version
 echo "current repository latest version:\n"
-git ls-remote --tags github.com/tcp-x/cd-rpc.git
+                     
+git ls-remote --tags https://github.com/tcp-x/cd-rpc.git
 # set latest version
 Version="v0.0.2"
 
