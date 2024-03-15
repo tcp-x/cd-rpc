@@ -17,7 +17,8 @@ var port = flag.Int("port", 9999, "Port on which to start the server.")
 func main() {
 	flag.Parse()
 
-	server := new(service.MultiplicationService)
+	// server := new(service.MultiplicationService)
+	server := new(service.UserService)
 	rpc.Register(server)
 	rpc.HandleHTTP()
 

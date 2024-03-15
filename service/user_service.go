@@ -12,7 +12,9 @@ type CdResponse struct {
 
 type UserService struct{}
 
-func (t *UserService) Auth(req *CdRequest, resp *CdResponse) error {
+type User struct{}
+
+func (t *User) Auth(req *CdRequest, resp *CdResponse) error {
 	fmt.Println("UserService::Auth()/req:", req.Req)
 	resp.Resp = `{"state":"success", "data":[]}`
 	return nil

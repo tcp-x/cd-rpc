@@ -1,2 +1,16 @@
 - change github.com/zeptonaut/cd-rpc/service to github.com/tcp-x/cd-rpc/service
 - develop publish.sh script to version the service file
+
+
+///////////////
+Simple server and client that communicate using Go's RPC library.
+
+Start the server with:
+
+    > go run server.go
+
+Then send an RPC from the client with:
+
+    > s --factor1=12 --factor2=13
+    156
+
