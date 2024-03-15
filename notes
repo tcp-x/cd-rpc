@@ -1,0 +1,2 @@
+- change github.com/zeptonaut/cd-rpc/service to github.com/tcp-x/cd-rpc/service
+- develop publish.sh script to version the service file
